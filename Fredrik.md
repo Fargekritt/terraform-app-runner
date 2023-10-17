@@ -95,7 +95,15 @@ terraform plan
 * [ ] Kjør terraform plan på nytt
   * init trenger du bare å kjøre engang
   * Den laster ned magien som faktisk kjører terraform koden din (provider)
-* [ ]  om du vill overstyre default varibabler ``terraform plan -var="repo_name=glennbech-mainrepo"``
+* [ ] om du vill overstyre default varibabler ``terraform plan -var="repo_name=glennbech-mainrepo"``
 * [ ] Kjør ``terraform apply`` skriv "yes"
 * [ ] for å slippe å måtte skrive yes ``terraform apply --auto-approve``
 * [ ] Det skal nå ligge terraform.state i terraform-demo mappen. Dette er staten som skal senere lagres i s3 bucket
+
+## State
+ * Om du sletta state filan å prøve å kjøre plan -> apply igjen så får du feilmeilding.
+ * ecr-repo finnes fra før men det vet ikke terraform om.
+ * Gå til AWS ECR og slett repo (ECR == dockerhub for aws)
+ * Dette må ikke gjøres men kan være lurt å gjøre det for mengde trening
+
+
