@@ -80,3 +80,7 @@ resource "aws_apprunner_service" "service" {
   * [ ] Settings på repo
   * [ ] "secrets and varibales"
   * [ ] "actions" så "new repository secret"
+  * [ ] Legg til begge verdiene du får fra IAM tingen
+
+## Terraform med lokal state fil
+
