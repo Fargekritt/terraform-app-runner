@@ -111,3 +111,8 @@ terraform plan
 * De ska ikke brukes lenger så de kan slettes
 * Det går fint å la dem stå tror jeg
 * Commit meldingen starter med CLEAN UP om du vill se hva som ble slettet
+
+## AWS App runner & Terraform med GitHub actions
+
+* [ ] Byttet ut navn fra "glenn" til noe personlig som "fredrik" i pipeline.yaml (github actions filen)
+* [ ] 
