@@ -55,3 +55,28 @@ resource "aws_apprunner_service" "service" {
     region = "eu-north-1"
   }
   ```
+
+
+# Oppgaven
+
+## Setup
+* [ ] Først fork has Repo
+* [ ] Om du bruker cloud 9
+  * [ ] ``git clone https://github.com/≤github bruker>/terraform-app-runner.git``
+  * [ ] ``git config --global credential.helper "cache --timeout=86400"`` Bare for å slippe at du må logge inn på github hele tiden
+  * [ ] Logger inn på github
+       ```
+        git config --global user.name <github brukernavn>
+        git config --global user.email <email for github bruker>
+       ```
+  * [ ] Når du gjør en pull så må du hente en token fra github. denne får du fra settings på profilen din
+* [ ] Om du bruker intellij
+  * [ ] Ha Terraform installert (Direkte i windows er OK) ``terraform --version`` i Cmd for å sjekke version 1.6.1
+  * [ ] Ha AWS CLI installert ``aws`` i cmd for å sjekke
+* [ ] Aktiver Github actions på repo. bare trykk på actions så kommer det opp om det ikke er i orden
+* [ ] Legg til AWS secrets til i githuben
+  * [ ] Gå til AWS nettsiden søk "IAM"
+  * [ ] Lagg nye access keys
+  * [ ] Settings på repo
+  * [ ] "secrets and varibales"
+  * [ ] "actions" så "new repository secret"
