@@ -121,3 +121,4 @@ terraform plan
       * [ ] S3
       * [ ] "pgr301-2021-terraform-state" nederst på listen hos meg
       * [ ] Finn navet på din folder (key i fra provider.tf "backend s3")
+* [ ] Om noe går galt i actions slett både state filen fra S3 og "app runner"
