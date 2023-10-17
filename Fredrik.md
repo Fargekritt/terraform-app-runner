@@ -1,5 +1,5 @@
 # Mål
-
+Han gjør oppgen i cloud 9 i AWS jeg gjør den på intellij på Windows
 ## Docker
  * [ ] Lage docker image av Spring-boot prosjektet
    * [ ] Med tag "latest" og version som matcher git commit
