@@ -104,6 +104,10 @@ terraform plan
  * Om du sletta state filan å prøve å kjøre plan -> apply igjen så får du feilmeilding.
  * ecr-repo finnes fra før men det vet ikke terraform om.
  * Gå til AWS ECR og slett repo (ECR == dockerhub for aws)
- * Dette må ikke gjøres men kan være lurt å gjøre det for mengde trening
+ * Dette må ikke gjøres men kan være lurt å gjøre det for mengde trening.
 
-
+## Rydd opp
+* Filene i terraform-demo mappen er for å ha state lokalt.
+* De ska ikke brukes lenger så de kan slettes
+* Det går fint å la dem stå tror jeg
+* Commit meldingen starter med CLEAN UP om du vill se hva som ble slettet
