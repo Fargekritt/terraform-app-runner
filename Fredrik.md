@@ -83,4 +83,18 @@ resource "aws_apprunner_service" "service" {
   * [ ] Legg til begge verdiene du får fra IAM tingen
 
 ## Terraform med lokal state fil
-
+* [ ] bytt navn/key på s3 backend i provider.tf
+* [ ] gå til terraform-app-runner/terraform-demo  ``cd terraform-demo `` om du er på intellij
+* [ ] Kjør kommandoene
+ ```
+terraform init 
+terraform plan
+ ```
+* [ ] avbyrt når den spør om repo
+* [ ] Forandre ecr.tf til ha en default value (default = "fredik-repo") (ingen store bokstaver)
+* [ ] Kjør terraform plan på nytt
+  * init trenger du bare å kjøre engang
+  * Den laster ned magien som faktisk kjører terraform koden din (provider)
+* [ ]  om du vill overstyre default varibabler ``terraform plan -var="repo_name=glennbech-mainrepo"``
+* [ ] Kjør ``terraform apply`` skriv "yes"
+* [ ] for å slippe å måtte skrive yes ``terraform apply --auto-approve``
