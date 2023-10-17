@@ -115,4 +115,9 @@ terraform plan
 ## AWS App runner & Terraform med GitHub actions
 
 * [ ] Byttet ut navn fra "glenn" til noe personlig som "fredrik" i pipeline.yaml (github actions filen)
-* [ ] 
+* [ ] Om action i github feiler på terraform apply kan det være fordi du har klart å gjørt den med feil info
+  * om når trenger å fjerne state filen
+    * [ ] AWS nettside
+      * [ ] S3
+      * [ ] "pgr301-2021-terraform-state" nederst på listen hos meg
+      * [ ] Finn navet på din folder (key i fra provider.tf "backend s3")
