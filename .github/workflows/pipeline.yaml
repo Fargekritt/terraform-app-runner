@@ -26,10 +26,10 @@ jobs:
           rev=$(git rev-parse --short HEAD)
           docker build . -t hello
           docker tag hello 244530008913.dkr.ecr.eu-west-1.amazonaws.com/ammy002-private:$rev
-          docker push hello 244530008913.dkr.ecr.eu-west-1.amazonaws.com/ammy002-private:$rev
+          docker push 244530008913.dkr.ecr.eu-west-1.amazonaws.com/ammy002-private:$rev
         
           docker tag hello 244530008913.dkr.ecr.eu-west-1.amazonaws.com/ammy002-private:latest
-          docker push hello 244530008913.dkr.ecr.eu-west-1.amazonaws.com/ammy002-private:latest
+          docker push 244530008913.dkr.ecr.eu-west-1.amazonaws.com/ammy002-private:latest
 
   terraform:
     name: "Terraform"
