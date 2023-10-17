@@ -123,4 +123,7 @@ terraform plan
       * [ ] Finn navet på din folder (key i fra provider.tf "backend s3")
 * [ ] Om noe går galt i actions slett både state filen fra S3 og "app runner"
 * [ ] Det er laget en ECR (dockkerhub for aws) min er ammy002-private. bruk den i pipeline.yaml
-* [ ] Du må legge til docker push i pipeline.yaml. fra standard så tar den bare å builder men ikke pusher
+* [ ] Du må legge til docker ush i pipeline.yaml. fra standard så tar den bare å builder men ikke pusher
+
+
+Da skal alt være ferdig!
