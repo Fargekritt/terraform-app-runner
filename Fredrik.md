@@ -98,3 +98,4 @@ terraform plan
 * [ ]  om du vill overstyre default varibabler ``terraform plan -var="repo_name=glennbech-mainrepo"``
 * [ ] Kjør ``terraform apply`` skriv "yes"
 * [ ] for å slippe å måtte skrive yes ``terraform apply --auto-approve``
+* [ ] Det skal nå ligge terraform.state i terraform-demo mappen. Dette er staten som skal senere lagres i s3 bucket
